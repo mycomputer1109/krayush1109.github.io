@@ -1,0 +1,74 @@
+.prajal{
+    margin:40px;
+}
+.p-header{
+    display:flex;
+}
+.fancy{
+    width: fit-contents;
+    color:black;
+    text-align: center;
+    font-size: 15px;
+    max-width: 600px;
+    position: relative;
+}
+.fancy::after{
+    content: "";
+    display: block;
+    width: 300px;
+    height: 5px;
+    background: orange;
+    right: 0;
+    top: 40%;
+    position: absolute;
+}
+.fancy2::after{
+    content: "";
+    display: block;
+    width: 140px;
+    height: 5px;
+    background: orange;
+    right: 0;
+    top: 40%;
+    position: absolute;
+}
+/* the end of heading css */
+
+.p-gride{
+    display: flex;
+    float: left;
+}
+.p-block{
+    width: fit-content;
+    margin: 15px;
+}
+.p-inbox{
+    float: left;
+    display:flex;
+    margin:0px 45px;
+    border: 2px solid white;
+    width:400px;
+}
+h3{
+    font-size: larger;
+    margin:2px 9px;
+    color: gray;
+}
+h3:hover{
+    color: black;
+    cursor: pointer;
+}
+.prajal-para{
+    margin:3px 9px;
+    font-size:medium;
+    font-weight: bold;
+}
+.prajal-img{
+    height: 150px;
+    width: 120px;
+    transition: all 0.5s ease 0s;
+}
+
+.prajal-img:hover{
+    transform: scale(1.1);
+}
