@@ -1,0 +1,8 @@
+How to Run This File :-
+
+1. Open the index.html file
+
+2. GO to Node Server Files and open index.js by writing node index.js or by writing 	nodemon index.js in the VS CODE
+
+3. In Google chrome, right click and go to inspect and go to Console
+	There You will see the error.

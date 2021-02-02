@@ -1,0 +1,14 @@
+{
+  "name": "nodeserverfiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\t\t\t",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayush Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^3.0.0"
+  }
+}
