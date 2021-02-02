@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+/* Navigation Bar Region */
+
+#navbar{
+    /* border: 3px solid green; */
+    padding: 4px 15px 25px 15px;
+    position: sticky;
+    top: 0;     left: 0;
+    margin: 0rem 0rem 0rem 0rem;
+    width: 100vw;   height: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.2rem;
+    z-index: 1;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    
+    position: absolute;
+    top: 0;     left: 0;
+    z-index: -1;
+    opacity: 0.3;
+    /* background-image: url('img/bg1.jpg'); */
+    height: 100%;       width: 100%;
+
+}
+
+#logo img{
+    position: absolute;
+    left: 30px;
+
+
+    width: 4rem;
+    transition: all 0.5s ease 0s;
+}
+
+#logo img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.item{
+    transition: all 0.2s ease 0s ;
+}
+
+.item:hover{
+    transform: scale(1.1)
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    
+}
+
+#navbar ul li a{
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;    
+    margin: 1rem 1rem;
+    border: 2px solid ;
+    border-radius: 2rem;
+    padding: 0.3rem 2rem;
+    /* z-index: 2; */
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+
+
+
+/*.................... Home Section  .............*/
+
+#home{
+    
+    width: 100vw;   height: 400px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px rgb(12, 34, 240);
+    /* border: 5px solid blue; */
+    /* top: 0px; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    width: 100%;   height: 629px;
+    top: 0px; left:0px;    
+    /* background-color: lightcoral; */
+    background: url('img/bg2.jpg') no-repeat center center/cover;
+    z-index: -2;
+    
+    filter: brightness(0.6);
+    
+}
+
+.h-primary-center{
+    
+    text-align: center;
+    /* margin: 2rem; */
+    color: rgba(255, 171, 75, 0.897);
+    font-family: 'Baloo Bhai 2', cursive;
+    /* z-index: -2; */
+}
+
+.h-primary-center::before{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 76px;
+    z-index: -3;
+    background-color: rgb(0 0 0 / 44%);
+    /* top: 0px; */
+    left: 0px;
+    /* background-color: red; */
+}
+
+
+
+h1{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 3.2rem;
+    /* margin-top: 8rem; */
+    /* background-color: rgba(0, 0, 0, 0.329); */
+    /* border: 2px solid red; */
+    transition: all 0.4s ease 0s;
+}
+
+h1:hover{
+    text-shadow: 2px 2px 10px rgb(12, 34, 240);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    /* font-size: 20px; */
+}
+
+#first-heading-center{
+    margin-top: 8rem;
+}
+
+h3{
+    text-shadow: 2px 2px 20px rgb(77, 240, 12);
+    margin: 0.4rem auto 1rem auto;
+}
+
+#home > p{
+    text-shadow: 2px 2px 20px rgb(187, 12, 240);
+    text-align: center;
+    margin: 5px 150px;
+    font-size: 20px;
+    font-family:  cursive;
+    /* font-family: 'Sansita Swashed', cursive; */
+}
+
+.btn{
+    /* width: 100px;   height: 25px; */
+    margin: 25px auto;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(29, 29, 29, 0.849);
+    font-weight: bold;
+    font-size: 16px;
+    
+    transition: all 0.3s;
+    
+}
+
+.btn:hover{
+    color: rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    /* transform: scale(2); */
+    transform: scale(1.2);
+    /* transform: rotate(360deg); */
+}
+
+
+/* ......................... Our Services Section .................................*/
+
+#services-container{
+    /* border: 2px solid red; */
+    margin: 160px 0px 0px 0px;
+}
+
+#services{
+    display: flex;
+    /* border: 2px solid orange; */
+    align-items: center;
+}
+
+.box{
+    border: 2px solid lightpink;
+    margin: 10px 20px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    height: 335px;
+    background-color: rgba(255, 182, 193, 0.308);
+    
+}
+
+.box img{
+    display: block;
+    margin: auto;
+    width: 15rem;
+    height: 10rem;
+    transition: transform 0.3s ease 0s;
+    padding-bottom: 20px;
+}
+
+.box img:hover{
+    transform: scale(1.2);
+}
+
+.h-secondary-center{
+    /* color: red; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.box > p{
+    /* color: red; */
+    margin: 10px 15px;
+    
+}
+
+
+
+
+/* ...................  Our Clients Section .......... */
+
+#our-clients{
+    background-color: #00ffff45;
+    z-index: -3;
+}
+
+#clients{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid red; */
+      width: 100vw;
+}
+
+.client-item{
+    /* border: 1px solid purple; */
+    margin: 30px 12px;
+    width: 20%;
+    
+}
+
+.client-item img{
+    /* border: 2px solid green; */
+    width: 100%;
+}
+
+.all-images{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.all-images:hover{
+    transform: scale(1.2);
+}
+
+/* .................  Contact Us .................. */
+
+#contact-us-container{
+    position: relative;
+    /* border: 2px solid red;     */
+    /* background-color: antiquewhite; */
+}
+
+#contact-us-container::before{
+    content: "";
+    position: absolute;
+    top:0px; left: 0px;
+    width: 100vw;   height: 570px;
+    z-index: -4;
+    
+    background: url('img/contact\ us.jpg') no-repeat center center/cover;
+    /* filter: brightness(.5); */
+}
+
+#contact-us-box{
+    position: relative;
+    top: 80px;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.form-group{
+    margin:10px;
+}
+
+.form-group > input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120%;
+}
+
+#submit-form{
+    /* color: blue; */
+    display: block;
+    /* margin: 30px auto 30px 127px; */
+    /* width: 100% */
+
+    font-size: 20px;
+    padding: 10px 20px;
+    /* border-radius: 10px; */
+    /* width: 120%; */
+}
+
+/* ................  Footer .......... */
+.copyright-footer{
+    position: relative;
+    top: 87px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+} 

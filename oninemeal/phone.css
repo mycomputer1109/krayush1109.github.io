@@ -1,0 +1,82 @@
+#navbar{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 120px;
+    /* border: 2px solid gold; */
+    
+}
+
+#navbar ul{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid gold; */
+    padding: 0px;
+    margin: 0px auto;
+    width: 100vw;
+    height: 120px;
+}
+
+.item{
+    margin: 9px 0px;
+    padding: 0px;
+}
+
+#logo img{
+    /* background-color: aqua; */
+    
+    /* This helps flex direction column to work properly */
+    position: relative;   
+    left: 237px;
+    
+    /* This and below code helps to bring in center */
+    display: inline-block;
+    
+    /* margin: auto auto; */
+    width: 8%;
+    align-items: center;
+    justify-content: center;
+}
+
+#services{
+    flex-direction: column;
+}
+
+
+
+/* ...............  Home Section  ............... */
+/* ...............  Home Section  ............... */
+
+#home{
+    /* position: relative; */
+    
+}
+
+#home > h1{
+    /* border: 2px solid white; */
+    margin: 25px 5px;
+    font-size: 22px;
+}
+
+#home > p{
+    /* border: 2px solid gold; */
+    margin: 10px;
+    height: 400px;
+    font-size: 16px;
+}
+
+#home::before{
+    height: 710px;
+}
+
+
+
+/*.................. Contact Us .............................. */
+/*.................. Contact Us .............................. */
+.form-group > input{
+    font-size: 12px;
+    width: 100%;
+}
