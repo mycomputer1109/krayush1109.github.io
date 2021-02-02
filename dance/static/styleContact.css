@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=PT+Serif:ital@1&display=swap');
+
+*{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin: 0px;
+}
+
+body::before{
+    background: url('danceBg.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 624px;
+    z-index: -1;
+}
+
+
+
+
+#logo-heading{
+   /* border: 2px solid red; */
+   
+   width: 31px;
+   margin: 5px 10px 1px -19px;
+   filter: invert(1);
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+#logo-heading:hover{
+    transform: scale(1.2);
+    filter: invert(0);
+}
+
+
+
+nav{
+    /* border: 2px solid red; */
+    background-color: rgb(28 110 168);
+    opacity: 0.8;
+    z-index: 100;
+
+    font-family: 'Baloo 2', cursive;
+}
+
+nav ul{
+    /* border: 2px solid green;     */
+    display: flex;
+    
+}
+
+nav ul li{
+    /* border: 2px solid blue; */
+    list-style-type: none;
+    /* font-weight: bold; */
+    margin: 5px;
+    padding: 4px 10px;
+    transition: all 0.3s ease;
+    
+}
+
+nav ul li:hover{
+    color: #97ffb7;
+    transform: scale(1.2);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    color: #97ffb7;
+}
+
+
+
+#h-secondary-center{
+    text-align: center;
+    font-size: 36px;
+    position: relative;
+    top: 0.03rem;
+    background-color: aqua;
+    color: rebeccapurple;
+    opacity: 0.5;
+
+    transition: all .3s ease;
+}
+
+#h-secondary-center:hover{
+    color: #da0000;
+    background-color: #00ffd0;
+    transform: scale(1.05);
+ }
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-content: right;
+    /* border: 2px solid blue; */
+    font-size: 22px;
+    padding-top: 33px;
+    margin-left: 60px;
+}
+
+.field{
+    margin: 5px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    
+}
+
+input, textarea{
+    opacity: 0.8;
+    font-size: 20px;
+    padding: 2px 14px;
+    border-radius: 10px;
+    outline: none;
+
+    position: absolute;
+    left: 181px;
+}
+
+.btn{
+    
+    position: relative;
+    top: 193px;
+    left: 134px;
+    padding: 2px 14px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 9px;
+    /* color: white;
+    background-color: black; */
+    cursor: pointer;
+    outline: none;
+
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.08);
+}
+
+#btn1{
+    background-color: #00219a;
+    color: #dbff94;
+    
+}
+#btn1:hover{
+    color: #00219a;
+    background-color: #ffffff;
+    
+}
+
+
+
+#btn2{
+    position: relative;
+    left: 155px;
+    background-color: #9e2020;
+    color: #ffffff;
+}
+#btn2:hover{
+    position: relative;
+    left: 155px;
+    color: #9e2020;
+    background-color: #ffffff;
+}
+
+
+
+footer{
+     background-color: black;
+     color: white;
+     position: absolute;
+     top: 580px;
+     width: 100%;
+     text-align: center;
+     font-size: 21px;
+     padding: 4px 0px;
+ }
+
+
