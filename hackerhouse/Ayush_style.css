@@ -1,0 +1,270 @@
+.Arpit-code-is-here {
+    position: relative;
+    top: 422px;
+    /* z-index: -1; */
+}
+.Prajal-code-is-here{
+    position: relative;
+    top: 400px;
+}
+.Ayush-code-is-here{
+    position: relative;
+    top: 308px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Pathway Gothic One,sans-serif;
+    
+}
+
+.container-get-our-latest-update {
+    /* background-color: rgb(0, 0, 0); */
+    padding: 0px 0px;
+    height: 345px;
+    /* border-top: 5px solid greenyellow; */
+    /* border-bottom: 5px solid #13ff66; */
+    
+}
+
+.container-get-our-latest-update::before{
+    content: "";
+    position: absolute;
+    width: 100%;    height: inherit;
+    background: url(img/contact-us-3.jpg) no-repeat center center/cover;
+    z-index: -1;
+    
+}
+
+.section-get-our-latest-update {}
+
+.h-secondary-center {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 1px;
+    color: #014707;
+
+
+    text-shadow: 2px 2px 5px rgb(66, 228, 250);    
+    /* border-bottom: 3px solid green; */
+    transition: all 0.4s ease 0s;
+}
+
+.h-secondary-center:hover{
+    transform: scale(1.05);
+    /* color: #0d5500; */
+    text-shadow: 1px 1px 5px rgb(110, 154, 248);
+}
+
+.form-box {
+    margin-top: 50px;
+}
+
+form {
+    /* align-items: center; */
+    /* background-color: violet; */
+    display: flex;      
+    justify-content: center;
+    flex-direction: row;
+    margin: 1px auto;
+}
+
+.form-box>form>input 
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px 20px ;
+}
+
+.button-class:hover{
+    color: white;
+    background-color: green;
+}
+
+.email-class{
+    width:400px;
+    background: #e3e3e3;
+    color: #0086bc;
+}
+
+.button-class{
+    cursor: pointer;
+}
+
+.subscribe-lower-text
+{
+    color: black;
+    text-shadow: 1px 1px 5px white;
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-size: 26px;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+.section-contact-us
+{
+    /* background-color: rgb(0 181 45); */
+    height: 335px;
+}
+
+.section-contact-us::before{
+    content: "";
+    position: absolute;
+    width: 100%;    height: inherit;
+    background: url(img/Business-FAQ.jpg) no-repeat center center/cover;
+    z-index: -1;
+    
+}
+
+.contact-btn-area{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-btn{
+    color: white;
+    background: black;
+    font-weight: bold;
+    margin: 20px 30px;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    height: 80px;       width: 325px;
+    transition: transform 0.3s ease 0s;
+}
+.contact-btn:hover{
+    color: black;
+    background: white;
+    transform: scale(1.05);
+}
+.contact-btn-1{
+    
+}
+.contact-btn-2{
+    
+}
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+.bottom-section-area-1{
+    /* border: 2px solid red; */
+    height: 236px;
+    /* background-color: rgb(0, 0, 0); */
+    color: white;
+}
+
+
+.pre-bottom-main-background-container{
+    content: "";
+    position: absolute;
+    width: 100%;    height: auto;
+    background: url(img/more-info-cyber1.jpg) no-repeat center top/cover;
+    z-index: -1;
+    
+}
+
+.bottom-div-1{
+    /* border: 3px solid blue; */
+    display: block;
+    padding: 10px 35px;
+    height: 150px;
+}
+
+
+.left-house-logo{
+    width: 7%;
+    float: left;
+    margin-top: 48px;
+    cursor: pointer;
+    transition: all 0.25s ease 0s;
+}
+.left-house-logo:hover{
+    transform: scale(1.1);
+}
+
+.left-house-address{
+    float: left;
+    font-weight: bold;
+    font-size: 24px;
+    width: 8%;
+    margin: auto 20px; 
+    position: relative;
+    top: 74px;
+}
+
+.right-shop-text{
+    position: relative;
+    top: 56px;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.right-lock-img{
+    float: right;
+    width: 8%;
+    margin-top: 42px;
+    cursor: pointer;
+    transition: all 0.25s ease 0s;
+}
+.right-lock-img:hover{
+    transform: scale(1.1);
+}
+
+.center-text-more-info{
+    position: absolute;
+    left: 46%;     
+    cursor: pointer;
+    font-size: 22px;
+}
+.center-text-more-info-span{
+    font-weight: bold;
+    color: rgb(108, 253, 253);
+    font-size: 26px;
+    
+}
+
+ul >li{
+    margin: 5px;
+    list-style: none;
+}
+.social-img-box{
+    display: flex;
+    justify-content: center;
+}
+
+.social-img{
+    width: 10%;
+    transition: all 0.2s ease 0s;
+}
+.social-img:hover{
+    transform: scale(1.1);
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+.copyright{
+    color:rgb(230, 230, 230);
+    background-color: black;
+    /* height: 80px; */
+    padding: 10px;
+    position: relative;
+    top: 236px;
+}
+
+.copyright-span{
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+/* ALL TEXT COLOR HOVER */
+.t-clr-hover:hover{
+    color: rgb(173, 250, 255);
+}
