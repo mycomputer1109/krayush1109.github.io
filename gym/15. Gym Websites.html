@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15. Gym Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        header {
+            font-size: 26px;
+            font-family: 'Sansita Swashed', cursive;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url("img/gym5 background.jpg");
+            background-size: 100%;
+            /* opacity: 0.5; */
+        }
+
+        .headerSubClass {
+            display: block;
+            color: rgb(255, 255, 255);
+            /* border: 2px solid rgb(194, 194, 235); */
+            padding: 4px 20px;
+        }
+
+        #left {
+            display: inline-block;
+            /* margin-top: 25px; */
+            width: 15%;
+
+            position: absolute;
+            left: 20px;
+            top: 30px;
+
+            margin: 0px auto;
+
+        }
+
+        #left div a {
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+
+        #left div a:hover {
+            color: lightpink;
+        }
+
+        .gymLogo {
+            display: block;
+            margin: 0px auto;
+            width: 85%;
+            filter: invert(100);
+
+
+        }
+
+        #mid {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+
+            position: relative;
+            top: 5px;
+
+        }
+
+        #right {
+            position: absolute;
+            right: 20px;
+            top: 30px;
+            /* margin-top: 10px; */
+        }
+
+        #right button {
+            margin: 0px 10px;
+
+            float: left;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            margin: 0px 5px;
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+
+
+        }
+
+        .navbar li a:hover {
+            color: rgb(79, 214, 255);
+        }
+
+        .container {
+            display: block;
+            margin: 0px auto;
+            width: 50%;
+
+            /* border: 2px solid rgb(247, 188, 188); */
+            position: absolute;
+            top: 129px;
+            left: 338px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        h6 {
+            text-align: right;
+            color: rgb(248, 248, 248);
+            font-size: 22px;
+        }
+
+        .form-Input input {
+            display: block;
+            margin: 8px auto;
+            padding: 5px 35px 5px 10px;
+            border: 2px solid rgb(39, 186, 231);
+            border-radius: 10px;
+        }
+
+        #submitDetail {
+            display: block;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            margin-right: auto;
+            margin-left: auto;
+
+        }
+        #reset {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        #audio{
+            display: block;
+            margin: 0px auto 0px auto;
+            width: 20%;
+        }
+    </style>
+    <script>
+        function resetBtn(){
+            document.getElementById("form-Input").reset;
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div id="left" class="headerSubClass">
+            <img src="img/gym logo.png" alt="" class="gymLogo">
+            <div><a href="">Fittnes World</a> </div>
+        </div>
+        <div id="mid" class="headerSubClass">
+            <ul class="navbar">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Enquiry</a> </li>
+                <li><a href="#">Gallery</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+
+            </ul>
+        </div>
+        <div id="right" class="headerSubClass">
+            <button class="btn btn-primary ">Email Us</button>
+            <button class="btn btn-primary ">Register Now</button>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the Best Gym of Your City</h1>
+        <h6>co-founder : Ayush Kumar</h3>
+            <form >
+                <div class="form-Input">
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                <div class="form-Input">
+                    <input type="text" placeholder="Enter Your Location">
+                </div>
+                <div class="form-Input">
+                    <input type="number" placeholder="Enter Your Age">
+                </div>
+                <div class="form-Input">
+                    <input type="text" placeholder="Enter Your Contact Number">
+                </div>
+                <div>
+                    <button class="btn btn-primary" id="submitDetail">Submit Details</button>
+                    <button class="btn btn-danger" id="reset" type="reset">Reset</button>
+                </div>
+            </form>
+
+    </div>
+    <div id="audio">
+        <audio controls autoplay>
+            <source src="media/gym background music.mp3" type="audio/mpeg">
+            Your Browser doesn't support audio
+        </audio>
+    </div>
+
+</body>
+
+</html>
